@@ -26,7 +26,7 @@ def handler(event):
         
         # 2. Whisper Transcription
         model = whisperx.load_model(
-            "large-v3", 
+            "large-v3-turbo", 
             device, 
             compute_type=compute_type,
             language=language
